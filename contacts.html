@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">A|K</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById("navLinks");
+            if (navLinks.style.display === "block") {
+                navLinks.style.display = "none";
+            } else {
+                navLinks.style.display = "block";
+            }
+        }
+    </script>
+
+    <div class="container">
+        <header>
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you! Please reach out with any questions or inquiries.</p>
+        </header>
+        <main class="main-content">
+            <article class="card">
+                <h2>Email</h2>
+                <p>For general inquiries, please email us at: <a href="mailto:alfok254@gmail.com">alfok254@gmail.com 
+                </a></p>
+            </article> 
+        
+        <article class="card">
+            <h2>Phone</h2>
+            <p>You can reach us at: +254 700 000 000</p>
+        </article>
+        <article class="card">
+            <h2>Location</h2>
+            <p>We are located at: Nairobi, Kenya</p>
+        </article>
+        <article class="card">
+            <h2>Follow Us</h2>
+            <p>Stay connected with us on social media:</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </article> 
+        <article class="card">
+            <h2>Feedback</h2>
+            <p>We value your feedback! Please fill out our <a href="#">feedback form</a>.</p>
+        </article>
+    </div> 
+        <footer style="padding-bottom: 1%;">
+            <marquee behavior="" direction="left">
+            <p>&copy; 2025 AlfoK Technologies. All rights reserved.</p>
+            <p>Contact us at: AlfoK254@gmail.com</p>
+        </marquee>
+        </footer>   
+</body>
+</html>

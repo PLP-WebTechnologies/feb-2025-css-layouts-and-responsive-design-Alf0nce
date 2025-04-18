@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Website</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">A|K</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <header>
+            <h1>Welcome to AlfoK Technologies</h1>
+            <p>We create beautiful, responsive websites for modern businesses</p>
+        </header>
+        
+        
+        <main class="main-content">
+            <article class="card">
+                <h2>Responsive Design</h2>
+                <p>Our websites look great on all devices, from desktop computers to mobile phones.</p>
+            </article>
+            
+            <article class="card">
+                <h2>Fast Performance</h2>
+                <p>We optimize all our projects for quick loading times and smooth user experience.</p>
+            </article>
+            
+            <article class="card">
+                <h2>Modern Technologies</h2>
+                <p>Using the latest web standards including HTML5, CSS3, and JavaScript frameworks.</p>
+            </article>
+            
+            <article class="card">
+                <h2>SEO Friendly</h2>
+                <p>All our websites are built with search engine optimization in mind.</p>
+            </article>
+            
+            <article class="card">
+                <h2>Easy Maintenance</h2>
+                <p>Clean code structure makes future updates simple and cost-effective.</p>
+            </article>
+            
+            <article class="card">
+                <h2>24/7 Support</h2>
+                <p>Our team is always available to help with any questions or issues.</p>
+            </article>
+        </main>
+        
+        <footer style="padding-bottom: 1%;">
+            <marquee behavior="" direction="left">
+            <p>&copy; 2025 AlfoK Technologies. All rights reserved.</p>
+            <p>Contact us at: AlfoK254@gmail.com</p>
+        </marquee>
+        </footer>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
